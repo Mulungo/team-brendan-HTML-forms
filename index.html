@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>HTML FORMS</h1>
+					<p><small>By Team Brendan</small></p>
+				</section>
+				<!-- Separator slide / title slide -->
+				<section>
+					<h2>Text Input</h2>
+				</section>
+
+				<!-- Nikos slide 1 -->
+				<section>
+					<p>
+						Our inspiration came from the article:
+					</p>
+					<h2>Form design</h2>
+					<h4>Best practice, research insights and examples</h4>
+					<p>
+						https://gerireid.com/forms.html
+					</p>
+				</section>
+				<!-- Nikos slide 2 -->
+				<section>
+					<img src="/images/geri-reid.jpg" alt="Geri Reid smiling in front of her laptop"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+					<p>Hi there, it's nice to meet you :wave:
+						I'm Geri, a UI & UX designer from London.</p>
+				</section>
+				<!-- Nikos slide 3 -->            
+				<section>
+					<p style="font-size: larger;"># Text input</p>
+					<p>Simple input for a form. Easy to overcomplicate</p>
+				</section>
+				<!-- Nikos slide 4 -->
+				<section>
+					<p>
+					<h3>Geri's guidelines</h3>                <ul>
+						<li>Text input fields must have a visible label above the input box.</li>
+						<li>Don't rely on placeholder text. It is not a substitute for a label.</li>
+						<li>Place hint text under the form label.</li>
+						<li>The size of the input box should reflect the intended input.</li>
+						<li>Unless labelled otherwise, all fields in a form are required. Mark optional fields as
+							'optional'.</li>
+					</ul>
+					</p>
+				</section>
+				<!-- Nikos slide 5 -->            
+				<section>
+					<img src="/images/text-input.png">
+				</section>
+				
+				<!-- Separator slide / title slide -->
+				<section>
+					<h2>Select</h2>
+				</section>
+				
+				<!-- *** PATRICK'S SLIDE 1 *** -->
+				<section>
+					<div class="row" style="display: flex;">
+						<div class="column" style="flex: 30%; padding: 5px;">
+							<h3>Select Tag</h3>
+							
+							<p> <small>
+							
+							<strong>Select</strong> creates a dropdown menu.<br>
+							
+							The <strong>Label</strong> helps users identify the purpose of the dropdown menu.<br>
+							
+							Inside the Select are <strong>Options</strong>.<br> </small>
+							
+							</p>
+							
+							<hr>
+							
+							<ul>
+							
+							<li>for</li>
+							
+							<li>id</li>
+							
+							<li>class</li>
+							
+							<li>value</li>
+							
+							</ul>
+						</div>
+						<div class="column" style="flex: 60%; padding: 5px;">
+							<img src="images/patrick1.jpg" alt="patrick 1">
+							<p><small> ref: <a href="https://designsystem.gov.au/components/select/">https://designsystem.gov.au/components/select/</a> </small></p>
+						</div>
+					</div>
+				</section>
+							
+				<!-- *** PATRICK'S SLIDE 2 *** -->
+					
+				<section>
+					<div class="row" style="display: flex;">
+						<div class="column" style="flex: 30%; padding: 5px;">
+							<h3>Attributes</h3>
+							
+							<p>Here are a few examples:</p>
+							
+							<ul>
+							
+								<li>selected</li>
+								
+								<li>multiple</li>
+								
+								<li>size</li>
+								
+								<li>name</li>
+								
+								<li>required</li>
+							</ul>
+						</div>
+						<div class="column" style="flex: 60%; padding: 5px;">
+							<img src="images/patrick2.jpg" alt="patrick 2">
+							<p><small> Image ref: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select</a> </small></p>
+						</div>
+					</div>
+				</section>
+					
+				<!-- *** PATRICK'S SLIDE 3 *** -->
+				<section>
+					<h3>Beware of the Dos and Don'ts</h3>
+					
+					<p>Dropdown menus are not always good for user experience as it makes the user work harder.</p>
+					
+					<p>Do use Select when</p>
+					
+					<ul>
+					
+					<li>Choosing an option from a predefined set of values</li>
+					
+					<li>Recommending a default option</li>
+					
+					</ul>
+				</section>
+				<!-- *** PATRICK'S SLIDE 4 *** -->
+				<section>
+					<p>Don't use Select when</p>
+					<ul>
+						<li>Displaying more than 10 options. Instead, use Inputs</li>
+
+						<li>Displaying a limited number of options. Instead, use Radio Buttons</li>
+						
+						<li>Displaying a "yes" or "no" selection. Instead, use Radio Buttons</li>
+						
+						<li>Turning an option on or off. Instead, use Checkboxes</li>
+						
+						<li>Viewing or comparing all options is needed. Instead, use Radio Buttons</li>
+					</ul>
+				</section>
+				<!-- Patrick's third image -->
+				<section>
+					
+					<img src="images/patrick3.jpg" alt="patrick 3">	
+					<p><small>Image ref: <a href="https://www.lukew.com/ff/entry.asp?1950">https://www.lukew.com/ff/entry.asp?1950</a></small></p>
+				</section>
+
+				<!-- Separator slide / title slide -->
+				<section>
+					<!-- empty on purpose -->
+				</section>
+				
+				<!-- Kiuri slide 1 -->
+				<section>
+					<h2>Radio Buttons</h2>
+					<img src="images/old-radio.jpg" alt="radio image one">
+				</section>
+				<!-- Kiuri slide 2 -->
+				<section>
+					<img src="images/carradio1.jpg" alt="car radio image one">
+				</section>
+				<!-- Kiuri slide 3 -->
+				<section>
+					<img src="images/carradio2.jpg" alt="car radio image two">
+				</section>
+				<!-- Kiuri slide 4 -->
+				<section>
+					<img src="images/radiocodeonbrowser3.png" alt="radio buttons code on browser">
+				</section>
+				<!-- Kiuri slide 5 -->
+				<section>
+					<img src="images/namegaga.png" alt="you are all radio gaga">
+				</section>
+				<!-- Kiuri slide 6 -->
+				<section>
+					<p>name = planet</p>
+					<p>value = pluto</p>
+					<p>planet = ON</p>
+				</section>
+				<!-- Kiuri slide 7 -->
+				<section>
+					<img src="images/radiocodeonbrowser3.png" alt="radio buttons code on browser">
+				</section>
+				<!-- Kiuri slide 8 -->
+				<section>
+					<img src="images/plutoisaplanet.png" alt="Pluto is a planet image Rick and Morty">
+				</section>
+				<!-- Kiuri slide 9 -->
+				<section>
+					<h3>All we hear is</h3>
+					<img src="images/allyouneedis2.gif" alt="radio gaga gif">
+					<h3>Radio Buttons</h3>
+				</section>
+				<!-- Separator slide / title slide -->
+				<section>
+					<!-- empty on purpose -->
+				</section>
+				<!-- Aliki slide 1 -->
+				<section>
+					<h2> Form Notifications </h2>
+				</section>
+				<!-- Aliki slide 2 -->
+				<section>
+					<p> There are four types of Form Notification:
+					<ul>
+					<li>Information</li>
+					<li>Warning</li>
+					<li>Error, Alert</li>
+					<li>Success, Submitted</li>
+					</ul>
+					</p>
+				</section>
+				<!-- Aliki slide 3 -->
+				<section>
+					<img src="images/aliki1.png" alt="aliki 1">
+				</section>
+				<!-- Aliki slide 4 -->
+				<section>
+					<p>Design of Form Notifications</p>
+					<ul>
+					<li>can be plain</li>
+					<li>can be elaborate -> unclear</li>
+					<li><strong>user friendly</strong></li>
+					</ul>
+					</p>
+				</section>
+				<!-- Aliki slide 5 -->
+				<section>
+					<p>User Friendly</p>
+					<ul>
+					<li>Helpful filling up the Form</li>
+					<li>Matching with the whole Concept of the Website</li>
+					<li>Avoid being disorienting</li>
+					</ul>
+					</p>
+				</section>
+				<!-- Aliki slide 6 -->
+				<section>
+					<img src="images/aliki2.png" alt="aliki 2">
+				</section>
+				<!-- Aliki slide 7 -->
+				<section>
+					<img src="images/aliki3.png" alt="aliki 3">
+				</section>
+				<!-- Thank you slide -->
+				<section>
+					<h2>Thank you!</h2>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
